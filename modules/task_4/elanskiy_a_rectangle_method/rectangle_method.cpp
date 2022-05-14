@@ -73,9 +73,11 @@ double rec_par(std::vector<std::vector<int>> integrals, int step, const std::fun
         num_of_threads++;
     }
 
+
     for (int i = 0; i < static_cast<int>(vec_threads.size()); i++) {
         vec_threads[i].join();
     }
+
 
     double result = 1;
     for (int i = 0; i < size_integ; i++) {
