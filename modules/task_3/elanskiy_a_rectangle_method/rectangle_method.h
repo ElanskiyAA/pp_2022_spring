@@ -2,13 +2,13 @@
 #ifndef MODULES_TASK_3_ELANSKIY_A_RECTANGLE_METHOD_RECTANGLE_METHOD_H_
 #define MODULES_TASK_3_ELANSKIY_A_RECTANGLE_METHOD_RECTANGLE_METHOD_H_
 
-#include <cmath>
-#include <cstdlib>
 #include <gtest/gtest.h>
-#include <iostream>
 #include <math.h>
 #include <omp.h>
 #include <tbb/tbb.h>
+#include <iostream>
+#include <cmath>
+#include <cstdlib>
 #include <utility>
 #include <vector>
 
